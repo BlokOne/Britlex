@@ -174,15 +174,7 @@ h2 {
 		height: 100%;
 		color: #263238;
 		transition: all 0.3s ease 0s;
-		overflow: auto;
 		opacity: 1;
-		a:visited {
-				color: #263238;
-		}
-		a:hover {
-			color: #000000;
-		}
-		
 		@media (min-width: 991px) {
 			position: relative;
 			padding: 0;
@@ -212,6 +204,12 @@ h2 {
 		font-size: 24px;
 		text-decoration: underline;
 		color: #263238;
+		a:visited {
+			color: #263238;
+		}
+		a:hover {
+			color: #000000;
+		}
 	}
 
 	&__button-lets-talk {

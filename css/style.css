@@ -297,16 +297,7 @@ h2 {
   color: #263238;
   -webkit-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  overflow: auto;
   opacity: 1;
-}
-
-.menu__body a:visited {
-  color: #263238;
-}
-
-.menu__body a:hover {
-  color: #000000;
 }
 
 @media (min-width: 991px) {
@@ -355,6 +346,14 @@ h2 {
   font-size: 24px;
   text-decoration: underline;
   color: #263238;
+}
+
+.menu__link a:visited {
+  color: #263238;
+}
+
+.menu__link a:hover {
+  color: #000000;
 }
 
 .menu__button-lets-talk {
